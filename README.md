@@ -1,36 +1,55 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# prueba-next.js
 
-## Getting Started
+# QuickBet Movies
 
-First, run the development server:
+QuickBet Movies es una aplicación web moderna y responsiva para explorar y ver películas en streaming. Construida con Next.js y React, ofrece una interfaz elegante para navegar, buscar y disfrutar de películas.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+# Características
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+🎬 Explora películas populares, mejor valoradas y próximas a estrenarse.
+🔍 Funcionalidad de búsqueda para encontrar películas específicas.
+🎭 Filtra películas por género.
+👤 Autenticación de usuarios (registro, inicio y cierre de sesión).
+📱 Diseño responsivo para dispositivos móviles y escritorio.
+🌙 Interfaz en modo oscuro.
+🎥 Página de detalles de películas con trailers y recomendaciones.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+# Tecnologías Utilizadas
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Next.js 13 (App Router).
+React 18.
+TypeScript.
+Tailwind CSS.
+Supabase para autenticación.
+TMDB API para datos de películas.
+Lucide React para íconos.
+Componentes Shadcn UI.
 
-## Learn More
+# Cómo Empezar
 
-To learn more about Next.js, take a look at the following resources:
+# Prerrequisitos
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Node.js 14.6.0 o superior.
+npm o yarn instalado.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+# Instalación
+Clona este repositorio desde GitHub:
+git clone https://github.com/sergioamaru0/quickbet-movies.git
 
-## Deploy on Vercel
+# Navega al directorio del proyecto:
+cd quickbet-movies
+Instala las dependencias:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Con npm: npm install
+con yarn: yarn
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Configura las variables de entorno. Crea un archivo .env.local en la raíz del proyecto y añade las claves necesarias (como la clave de API de TMDB y las configuraciones de Supabase). Puedes usar el archivo .env.local como referencia.
+
+# Inicia el servidor de desarrollo:
+
+Con npm: npm run dev
+con yarn:yarn dev
+
+Abre tu navegador y accede a http://localhost:3000 para ver la aplicación
+
+![image](https://github.com/user-attachments/assets/0cedf262-6867-46ba-a275-f5d040b193c6)
